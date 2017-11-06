@@ -18,14 +18,15 @@ public class ArrayE {
         numbers.add(24);
         numbers.add(145);
         numbers.add(25);
-        System.out.println(numbers);
+//        System.out.println(numbers);
 //    public addEven() {
         Integer sum = 0;
         for (Integer number : numbers) {
             if (number % 2 == 0) {
-                sum += numbers.get(number);
+//                sum += numbers.get(number);
+                sum += number;
             }
-        System.out.println(sum);
+    System.out.println(sum);
 //        }
     }
     }
